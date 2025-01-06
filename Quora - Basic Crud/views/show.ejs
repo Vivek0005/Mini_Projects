@@ -1,0 +1,13 @@
+<%- include("includes/header.ejs") %>
+<body>
+    <h1>Quora</h1>
+    <div class="postDiv">
+        <p class="userInfo">id : <%= post.id %></p>
+        <p class="userInfo">user : @<%= post.name %> </p>
+        <p id="content">content : <br> <%= post.content %></p>
+    </div>
+    <hr>
+    <br>
+    <a href="/posts">Go back to home page</a>
+</body>
+</html>

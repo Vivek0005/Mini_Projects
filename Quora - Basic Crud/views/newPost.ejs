@@ -1,0 +1,13 @@
+<%- include("includes/header.ejs") %>
+  <body>
+    <form method="post" action="/posts" >
+      <label for="user">Enter User Name : </label>
+      <input type="text" id="user" name="user" placeholder="Enter username" />
+      <br /><br />
+      <label for="content">Enter Content : <br /></label>
+      <textarea id="content" name="content" cols="30" rows="7"></textarea>
+      <br /><br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
